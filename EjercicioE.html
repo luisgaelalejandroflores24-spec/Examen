@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla Sencilla</title>
+    <style>
+
+        table {
+            width: 100%;
+            height: 400px;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        .fila-corta {
+            height: 50px;
+        }
+
+        .ancho-menu {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr class="fila-corta">
+            <td colspan="2">HEADER</td>
+        </tr>
+
+        <tr>
+            <td class="ancho-menu">MENU</td>
+            <td>CONTENIDO</td>
+        </tr>
+
+        <tr class="fila-corta">
+            <td colspan="2">FOOTER</td>
+        </tr>
+    </table>
+
+</body>
+</html>
